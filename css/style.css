@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Public Sans', sans-serif;
 }
 
 ul li{
@@ -22,6 +25,7 @@ a{
 .header__wrapper{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__img-logo{
@@ -33,6 +37,9 @@ a{
   display: flex;
   width: 331px;
   justify-content: space-between;
+}
+
+.header__nav-link{
   font-size: 14px;
   line-height: 16.41px;
   letter-spacing: -0.11px;
